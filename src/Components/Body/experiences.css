@@ -1,0 +1,204 @@
+.exp_container {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background-color: rgba(113, 133, 127, 0.116);
+  font-family: "Poppins", sans-serif;
+}
+
+.top_exp_Text {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top_exp_Text h1 {
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.center_exp_container {
+  width: 100%;
+  height: auto;
+  padding: 70px 120px;
+}
+
+.exp_grid_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 310px 310px;
+  grid-row-gap: 40px;
+  grid-column-gap: 20px;
+}
+.exp_G_items {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px 25px;
+  overflow: hidden;
+}
+.exp_profile {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcoral;
+  margin-top: -60px;
+}
+.exp_items_bdy{
+    overflow: hidden;
+}
+
+.exp_icons {
+  font-size: 40px;
+  color: white;
+}
+.exp_items_bdy p:nth-child(2) {
+  font-size: 18px;
+  padding-top: 10px;
+  color: lightcoral;
+}
+.exp_items_bdy h2:nth-child(3) {
+  font-size: 25px;
+  padding-top: 10px;
+  color: black;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+.exp_items_bdy p:nth-child(4) {
+  font-size: 14px;
+  color: rgb(150, 146, 146);
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.exp_items_bdy p:nth-child(5) {
+  font-size: 17px;
+  color: rgb(150, 146, 146);
+}
+
+@media screen and (max-width: 1200px) {
+  .top_exp_Text {
+    height: 40vh;
+  }
+  .center_exp_container {
+    width: 100%;
+    height: auto;
+    padding: 70px 50px;
+  }
+  .exp_items_bdy p:nth-child(2) {
+    font-size: 16px;
+  }
+  .exp_items_bdy h2:nth-child(3) {
+    font-size: 18px;
+  }
+  .exp_items_bdy p:nth-child(4) {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .exp_items_bdy p:nth-child(5) {
+    font-size: 15px;
+    color: rgb(150, 146, 146);
+  }
+
+}
+@media screen and (max-width: 700px) {
+    .top_exp_Text {
+        height: 40vh;
+      }
+      .center_exp_container {
+        width: 100%;
+        height: auto;
+        padding: 70px 50px;
+      }
+      .exp_items_bdy p:nth-child(2) {
+        font-size: 16px;
+      }
+      .exp_items_bdy h2:nth-child(3) {
+        font-size: 18px;
+      }
+      .exp_items_bdy p:nth-child(4) {
+        font-size: 12px;
+        margin-bottom: 15px;
+      }
+      
+      .exp_items_bdy p:nth-child(5) {
+        font-size: 14px;
+        color: rgb(150, 146, 146);
+      }
+      .exp_G_items {
+        border-radius: 10px;
+        padding: 25px 18px;
+        overflow: hidden;
+      }
+}
+@media screen and (max-width: 580px) {
+    .exp_grid_container {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 310px 310px 310px 310px;
+        grid-row-gap: 60px;
+        grid-column-gap: 20px;
+      }
+      .center_exp_container {
+        padding: 70px 45px;
+      }
+      .exp_items_bdy p:nth-child(2) {
+        font-size: 17px;
+      }
+      .exp_items_bdy h2:nth-child(3) {
+        font-size: 20px;
+      }
+      .exp_items_bdy p:nth-child(4) {
+        font-size: 14px;
+        margin-bottom: 25px;
+      }
+      
+      .exp_items_bdy p:nth-child(5) {
+        font-size: 18px;
+        color: rgb(150, 146, 146);
+      }
+      .exp_G_items {
+        border-radius: 10px;
+        padding: 25px 18px;
+        overflow: hidden;
+      }
+}
+
+@media screen and (max-width: 450px) {
+    .exp_grid_container {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 370px 370px 370px 370px;
+        grid-row-gap: 60px;
+        grid-column-gap: 20px;
+      }
+      .center_exp_container {
+        padding: 70px 20px;
+      }
+      .exp_items_bdy p:nth-child(2) {
+        font-size: 17px;
+      }
+      .exp_items_bdy h2:nth-child(3) {
+        font-size: 20px;
+      }
+      .exp_items_bdy p:nth-child(4) {
+        font-size: 14px;
+        margin-bottom: 25px;
+      }
+      
+      .exp_items_bdy p:nth-child(5) {
+        font-size: 18px;
+        color: rgb(150, 146, 146);
+      }
+      .exp_G_items {
+        border-radius: 10px;
+        padding: 25px 18px;
+        overflow: hidden;
+      }
+}

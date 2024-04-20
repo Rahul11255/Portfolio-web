@@ -1,0 +1,105 @@
+.skill_container {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: rgba(235, 191, 97, 0.219);
+}
+
+.top_skill_Text {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_skill_Text h1 {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.center_skill_text{
+    width: 100%;
+    height: 50vh;
+    box-sizing: border-box;
+    padding: 10px 8%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.center_skill_text div{
+    flex: 1 1 300px;
+}
+/* .center_skill_text div:nth-child(2){
+    margin-left: 20px;
+    margin-right: 20px;
+} */
+.firt_col_progs{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.firt_col_progs div:nth-child(1){
+    margin-top: 8%;
+}
+
+.firt_col_progs div{
+    margin-bottom: 5px;
+    /* margin-top: 10%; */
+}
+
+.firt_col_progs div progress{
+    margin-bottom: 5px;
+}
+
+#file{
+    appearance: none;
+    border: none;
+    width: 100%;
+    height: 12px;
+    /* border-radius: 5px; */
+}
+#file::-webkit-progress-bar {
+    background-color: rgba(211, 206, 206, 0.616); /* Background color for WebKit browsers */
+    border-radius: 5px;
+}
+
+#file::-webkit-progress-value {
+    background-color: lightcoral; /* Color of the progress bar in WebKit browsers */
+    border-radius: 5px;
+
+}
+
+#file::-moz-progress-bar {
+    background-color: lightcoral; /* Color of the progress bar in Firefox */
+}
+.label{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3px;
+    font-family: "Poppins", sans-serif; 
+    font-size: 18px;   
+}
+.label h5{
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+
+.label span{
+    color: lightcoral;
+    font-weight: 600;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    .top_skill_Text {
+        height: 50vh;
+    }
+    .top_skill_Text h1 {
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 40px;
+    }
+}
