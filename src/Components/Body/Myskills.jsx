@@ -5,7 +5,7 @@ import Prog from "./Prog";
 const Myskills = () => {
   return (
     <>
-      <section className="skill_container">
+      <section className="skill_container" id="myskills">
         <div className="top_skill_Text">
           <h1>My Skills</h1>
         </div>

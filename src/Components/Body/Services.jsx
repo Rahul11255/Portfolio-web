@@ -13,7 +13,7 @@ import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
 const Services = () => {
   return (
     <>
-      <section className="services_container">
+      <section className="services_container" id="services">
         <div className="top_services_text">
           <h1>Services</h1>
           <h2>What I Do?</h2>

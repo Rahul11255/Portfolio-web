@@ -28,7 +28,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 const Testimonial = () => {
   return (
     <>
-     <section className='test_container'>
+     <section className='test_container' id='Testimonial'>
         <div className="top_test_text">
         <p>TESTIMONIAL</p>
         <h1>Happy Guests</h1>

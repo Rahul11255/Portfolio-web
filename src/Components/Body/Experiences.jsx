@@ -6,9 +6,9 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 const Experiences = () => {
   return (
     <>
-      <div className="exp_container">
+      <div className="exp_container" id="Experience">
         <div className="top_exp_Text">
-          <h1>My Skills</h1>
+          <h1>Experience</h1>
         </div>
         <div className="center_exp_container">
           <div className="exp_grid_container">
