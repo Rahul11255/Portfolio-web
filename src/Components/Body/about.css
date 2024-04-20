@@ -247,11 +247,17 @@
   }
   .grid_layout {
     grid-template-columns:1fr;
-    padding-left: 55px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     padding-right: 0px;
   }
   .grid_layout div {
-    border-radius: 10px;
+    border-radius: 10px;  
+      font-size: 40px;
+    height: 150px;
+    width: 250px;
   }
   .about_me{
     margin-top: 50px;

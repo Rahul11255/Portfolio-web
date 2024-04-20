@@ -260,4 +260,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 500px);
   }
+  .grid_items .ptext {
+    color: black;
+
+    font-size: 19px;
+  }
 }
