@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="footer_containr">
         <div className="footer_img">
           <div className="f-img-d">
-            <a href="https://www.instagram.com/rahulpatel1125/">
+            <a href="https://www.instagram.com/rahulpatel11255/">
             <img src={insta} alt="" />
             </a>
           </div>
