@@ -2,9 +2,8 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Home from "./Components/Home/Home";
 import Footer from "./Components/footer/Footer";
-// import ClipLoader from "react-spinners/ClipLoader";
-// import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import ClipLoader from "react-spinners/ClipLoader";
+import GotoTop from "./Components/GotoTop";
 
 function App() {
   const [loading, setLoading] = useState(true); // Setting initial state to true
@@ -30,6 +29,7 @@ function App() {
       ) : (
         <>
           <Home />
+        <GotoTop/>
           <Footer />
         </>
       )}
