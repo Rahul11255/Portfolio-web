@@ -90,6 +90,16 @@
     font-weight: 600;
 }
 
+@media screen and (max-width: 750px) {
+    .top_skill_Text {
+        height: 50vh;
+    }
+    .top_skill_Text h1 {
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 40px;
+    }
+}
 
 
 

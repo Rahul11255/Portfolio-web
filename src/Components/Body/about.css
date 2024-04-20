@@ -197,7 +197,45 @@
 @media screen and (max-width: 1200px) {
  
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
+  .top_about_Text {
+    height: 30vh;
+  }
+  .grid_layout div {
+    height: 180px;
+    width: 180px;
+    background-color: rgba(240, 128, 128, 0.219);
+    font-size: 30px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: .5px;
+  }
+  .about_me{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .grid_layout {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding-left: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    padding-right: 0px;
+    align-items: center;
+    text-align: center;
+  }
  
 }
 @media screen and (max-width: 480px) {
